@@ -1,0 +1,129 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right, blue, rgb(161, 91, 154));
+}
+.cabecalho {
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+
+
+}
+
+a:hover{
+    background-color: rgb(95, 95, 235);
+
+}
+
+.cabecalho-menu-item {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cabecalho-imagem{
+height: 50px;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+gap: 32px;
+
+}
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+font-weight: 400;
+font-size: 15px;
+}
+.conteudo{
+margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue ;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+color: antiquewhite;
+    }
+    .conteudo-principal-botao{
+        background-color: rgb(156, 144, 167);
+        width: 180px;
+        height: 60px;
+        border: none;
+        font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+
+    }
+.conteudo-principal-imagem{
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.conteudo-secundario{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+margin-top: 50px ;
+font-family: 'Righteous', cursive;
+font-weight: 400;
+}
+.conteudo-secundario-titulo{
+
+    border-top: 0.4px;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+font-weight: 400;
+font-size: 24px;
+color: rgb(255, 255, 255);
+
+
+}
+
+footer{
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-family: 'bebas neue', cursive;
+}
